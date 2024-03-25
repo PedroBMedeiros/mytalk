@@ -1,0 +1,9 @@
+Pedro Medeiros (pdemedei)
+
+Special Instructions:
+	1. Program is compiled with "make"
+	2. Run program according to usage
+		mytalk [ -v ] [ -a ] [ -N ] [ hostname ] port
+
+Code was initially implemented replicating what is seen in Lecture 21.7 real chat system.
+Starting from figures 93 and 95, and the minichat poll version for the client side, I modified the code to use the provided library functions and get around the IO difficulties that I encountered when not using the library. Similarly, for the server side, fig 97 and 96 were the starting point, later modified to use the library functions and again get around problems with windowing and IO in general.
